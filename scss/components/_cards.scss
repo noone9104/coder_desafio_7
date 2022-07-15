@@ -1,0 +1,12 @@
+
+@mixin card_styles {
+    font-size: $font-small;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: $font-semibold;
+    background: #f4a460;
+}
+
+.card_join {
+    @include card_styles;
+}
+

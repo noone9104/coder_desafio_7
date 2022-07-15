@@ -1,0 +1,144 @@
+/*Tipografias
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*/
+
+
+/*Reset CSS
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Reglas generales
+body {
+    overflow-x: hidden;
+    background-color: #151515;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: content-box;
+    
+}
+
+
+
+html {
+    height: 100vh;
+    width: 100%;
+    font-size: 62.5%;
+}
+
+*/
+
+
+/*
+
+header {
+    background: #f4a460;
+    height: 10vh;
+}
+
+nav li {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    list-style: none;
+}
+
+nav li a {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #151515;
+}
+
+nav li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+footer {
+    background: #565254;
+    height: 20vh;
+    color: #fff;
+    margin-top: 10rem;
+}
+
+
+
+/*Headings
+
+p {
+    font-size: 1.5rem ;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: #fff;
+}
+
+/*Ajustes secciones*/
+
+.header_banner {
+    background: url(../img/drums-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;   
+
+}
+
+.header_banner_join {
+    background: #565254;
+    color: #fff;   
+
+}
+
+/*Elementos
+
+.button-banner {
+    font-size: 1.3rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.button-banner:hover {
+    color: #fff;
+    transform: scale(1.2,1.2);
+    transition: 0.5s;
+}
+
+
+
+.card {
+    font-size: 1.3rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background: #f4a460;
+
+}
+
+.form_join {
+    font-size: 1.2rem;
+    line-height: 3.5rem;
+    color: #fff;
+}
+*/

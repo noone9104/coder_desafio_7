@@ -1,0 +1,40 @@
+.button_banner {
+    font-size: $font-mid;
+    font-family: $font-general;
+    font-weight: $font-bold;
+    transition: 0.5s;
+
+
+    &:hover {
+        color: $color-blanco;
+        transform: scale(1.2,1.2);
+        transition: 0.5s;
+    }
+    
+}
+
+
+$buttons: (
+    normal: $color-primario,
+    negro: $color-secundario,
+    rojo: $color-terciario,
+    ligth: $color-blanco,
+    
+    );
+
+@each $style, $color in $buttons {
+    .button_#{$style}{
+        background: $color;
+        font-size: $font-big;
+        font-family: $font-general;
+        font-weight: $font-bold; 
+    }
+}
+
+.button_banner_alt {
+    background: map-get($map: $buttons, $key: rojo);
+    color: map-get($map: $buttons, $key: negro);
+    font-size: $font-mid;
+    font-family: $font-general;
+    font-weight: $font-semibold; 
+} 

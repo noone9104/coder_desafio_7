@@ -1,0 +1,12 @@
+footer {
+    background: $color-terciario;
+    height: 20vh;
+    color: $color-blanco;
+    margin-top: $box-space-large;
+}
+
+.footer_bottom {
+    @extend footer;
+    background: $color-primario;
+    margin-top: 0; 
+}

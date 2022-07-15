@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+/*Headings*/
+
+h1 {
+    font-family: $font-general;
+    font-size: $font-biggest;
+    font-weight: $font-bold;
+        
+}
+
+h2 {
+    font-size: $font-big;
+    font-weight: $font-medium;
+}
+
+h3 {
+    font-size: $font-mid;
+    font-weight: $font-normal;
+}
+
+p {
+    font-size: $font-small;
+}
+
+
+.title_banner {    
+    text-shadow: $title-shadow;
+}

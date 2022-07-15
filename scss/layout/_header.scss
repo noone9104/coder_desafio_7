@@ -1,0 +1,26 @@
+
+/*Header + Navegacion*/
+
+header {
+    background: $color-primario;
+    height: 10vh;
+
+    li {
+        font-family: $font-general;
+        font-size: $font-small;
+        font-weight: 500;
+        list-style: none;    
+
+        a {
+            font-family: $font-general;
+            font-size: $font-small;
+            font-weight: 500;
+            color: $color-secundario;
+        
+        &:hover {
+        color: $color-blanco;
+        text-decoration: none;
+        }
+     }
+  }
+}

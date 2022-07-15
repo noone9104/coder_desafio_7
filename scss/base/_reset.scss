@@ -1,0 +1,25 @@
+/*Reset CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Reglas generales*/
+
+body {
+    overflow-x: hidden;
+    background-color: $color-secundario;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: content-box;
+    color: $color-blanco;
+    
+}
+
+html {
+    height: 100vh;
+    width: 100%;
+    font-size: 62.5%;
+}
